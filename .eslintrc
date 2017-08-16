@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "wx": true,
+    "App": true,
+    "Page": true
+  }
+}

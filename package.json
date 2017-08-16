@@ -1,0 +1,31 @@
+{
+  "name": "app-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "gulp dev --env development",
+    "build": "gulp build --env production",
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "acorn": "^5.1.1",
+    "babel": "^6.23.0",
+    "babel-jest": "^20.0.3",
+    "del": "^3.0.0",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "jest": "^20.0.4",
+    "through2": "^2.0.3"
+  },
+  "jest": {
+    "testRegex": "/test/modules/.*\\.js$",
+    "globals": {
+      "App": true,
+      "Page": true
+    }
+  }
+}

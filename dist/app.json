@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "地图",
+    "navigationBarTextStyle": "black"
+  }
+}

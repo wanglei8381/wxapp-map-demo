@@ -1,0 +1,8 @@
+@import "./style/index.wxss";
+
+.container {
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 14rpx;
+}

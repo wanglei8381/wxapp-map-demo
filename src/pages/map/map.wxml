@@ -1,0 +1,17 @@
+<map
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  show-location="{{showLocation}}"
+  include-points="{{includePoints}}"
+  scale="{{scale}}"
+  markers="{{markers}}"
+  polyline="{{polyline}}"
+  circles="{{circles}}"
+  controls="{{controls}}"
+  bindmarkertap="bindmarkertap"
+  bindcallouttap="bindcallouttap"
+  bindcontroltap="bindcontroltap"
+  bindregionchange="bindregionchange"
+  bindtap="bindtap"
+>
+</map>
